@@ -54,4 +54,9 @@ interface FileSystem
      * @throws FileNotFound
      */
     public function getAbsolutePath(string $path): string;
+
+    /**
+     * Get temporary directory path
+     */
+    public function getTmpDir(): string;
 }
