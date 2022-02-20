@@ -12,9 +12,17 @@
     "require": {
         "php": ">=7.0"
     },
+    "require-dev": {
+        "artarts36/php-cs-fixer-good-fixers": "^0.1.2"
+    },
     "autoload": {
         "psr-4": {
             "ArtARTs36\\FileSystem\\Contracts\\": "src/Contracts"
         }
+    },
+    "scripts": {
+        "lint": [
+            "php-cs-fixer fix --dry-run --verbose --diff --ansi"
+        ]
     }
 }
