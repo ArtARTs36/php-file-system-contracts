@@ -5,5 +5,5 @@
 
 .gitattributes  export-ignore
 .gitignore      export-ignore
-readme.md       export-ignore
+README.MD       export-ignore
 LICENSE         export-ignore
